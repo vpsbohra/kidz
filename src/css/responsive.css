@@ -1,0 +1,274 @@
+/********************* Responsive CSS Here *********************/
+@media screen and (max-width: 1200px) {}
+    
+@media screen and (max-width: 991px) {
+    
+.container {width: 100%;max-width: 95%;padding-left: 10px;padding-right: 10px;}
+footer.bg-light .row .col-lg-3.col-md-6.mb-4:nth-child(2) {display: none;}
+footer.bg-light {text-align: left !important;}
+footer.bg-light .row .col-lg-3.col-md-6.mb-4 {width: 33%;}
+.header_inner .navbar .navbar-nav li .nav-link {font-size: 14px;}
+.header_inner .navbar .navbar-nav li {margin-left:7px;}
+.header_inner .container {padding-left: 0;padding-right: 5px;width: 100%;max-width: 98%;}
+.header_inner .navbar .navbar-nav li.nav-item.lang_sr_item {margin-left: 20px;}
+.header_inner .navbar .logo a img {max-width: 220px;}
+.header_inner .navbar .navbar-nav li.login-btn .nav-link {font-size: 16px;min-width: 100px;padding: 11px 0;}
+.login_page_sr::before, .login_page_sr::after {display: none;}
+.row.plans_row_sr .col.plans_item_sr h2 {font-size: 30px;line-height: 50px;}
+
+
+.faq_page_inner {padding: 0 40px;}
+.faq_row_item {gap: 30px;}
+.faq_section .faq_section_inner .faq_content_left h3 {font-size: 23px;}
+
+.faq_mainpage_inner {display: flex;gap: 100px;display: block;}
+.faq_mainpage_inner .faq_mainpage_left {max-width: 100%;}
+.faq_mainpage_inner .faq_mainpage_left .search-box {margin: 0 auto;display: table;width: auto;margin-bottom: 20px;}
+.faq_mainpage_inner .faq_mainpage_left h3 {text-align: center;}
+.login_page_sr .login_page_row .create-user-section {text-align: center;padding-left: 0px;}
+.login_page_sr .login_page_row {align-items: center;display: block;}
+.login_page_sr .login_page_row .col-sm-6 {width: 100%;max-width: 80%;margin: 0 auto;}
+.card.login_sr_cnt {box-shadow: #ccc 0 1px 4px;}
+.login_page_sr {background: transparent;}
+.card.login_sr_cnt h1.mb-3 {font-size: 28px;text-align: center;}
+.header_inner .navbar .navbar-nav li .dropdown .btn.dropdown-toggle {color: #fff;}
+.dashboard_container {max-width: 954px;padding: 54px 20px;}
+.Withdraw_balance_popContent input {max-width: 100%;width: 100%;}
+
+.mission_main .mission_main_inner .mission_main_items a .image-content {width: 50%;}
+.mission_main .mission_main_inner .mission_main_items a .image-content img {width: 100%;}
+.mission_main .mission_main_inner .mission_main_items a .text-content {width: 50%;}
+.myprofile_page .content_tab_Sr .myprofile_tab_inner .myprofile_right {padding-left: 20px;}
+.myprofile_page .content_tab_Sr .myprofile_tab_inner .myprofile_left {padding-right: 20px;}
+.myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item .tabs.nav-link h4 {font-size: 20px;line-height: 30px;}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.content_tab_Sr .ractive-content .form-group.payment_method_form.payment_method_form-default .remove-cstm {align-items: flex-start;flex-direction: column; justify-content: flex-start;
+  gap: 15px;}
+.header_inner .navbar .logo a img {max-width: 200px;}
+.header_inner .navbar .navbar-nav li.nav-item.lang_sr_item {margin-left: 0px;}
+
+
+.navbar-expand-sm .navbar-collapse {justify-content: end;}
+.container {max-width: 100%;padding-left: 10px;padding-right: 10px;}
+
+.header_inner .navbar .navbar-toggler {display: block;outline: 0;box-shadow: none;}
+.header_inner .navbar .navbar-nav {align-items: center;flex-direction: column;}
+.header_inner .navbar {flex-wrap: wrap;}
+.navbar-expand-sm .navbar-collapse {flex-basis: 100%;flex-grow: 1;transform: translateX(-100%);transition: all .3s ease;position: fixed;top: 90px;background: #1A60B1DE;width: 100%;z-index: 99;height: 100vh !important;padding: 50px 0 20px 0;display: block !important;opacity: 0;visibility: hidden;left: 0;}
+.navbar-expand-sm .navbar-collapse.show {transform: translateX(0);opacity: 1;visibility: inherit;}
+.header_inner .navbar .navbar-nav li .nav-link {font-size: 20px;line-height: 30px;color: #fff;}
+.header_inner .navbar .navbar-nav li .nav-link.active, .header_inner .navbar .navbar-nav li .nav-link:hover {color: #F28A35;}
+.header_inner .navbar .navbar-nav li .dropdown-toggle::after {border-top: 0.4em solid #fff;}
+.header_inner .navbar .navbar-nav li .dropdown-toggle {outline: 0;border: none;box-shadow: none;margin-bottom: 10px;}
+.header_inner .navbar .navbar-nav li {margin-left: 0;margin-bottom: 10px;}
+.header_inner .navbar .navbar-nav li.login-btn .nav-link {color: #fff !important;}
+.header_inner .navbar {padding: 26px 0;}
+.menu_active {overflow: hidden;}
+
+.header_inner .navbar .navbar-nav li.login-btn .nav-link {border: 1px solid #fff;}
+.faq_section .faq_section_inner {display: block;}
+.faq_section .faq_section_inner .faq_content_left {margin-bottom: 10px;}
+.Apply_last_section {margin-top: 0;}
+.how_work_section .how_work_section_inner .how_work_item {margin-bottom: 32px;display: flex;gap: 20px;}
+.how_work_section .how_work_section_inner .how_work_item span {width: 46px;height: 46px;font-size: 19px;}
+.how_work_section .section_title {font-family: Plus Jakarta Sans;font-size: 36px;font-weight: 600;line-height: 45px;letter-spacing: 0em;color: #262626;margin-bottom: 32px;margin-top: 30px;text-align: center;}
+.who_connectors_section h3.section_title {font-size: 30px;line-height: 45px;width: 100%;text-align: center;}
+.pioneer_section .pioneer_title {font-size: 30px;text-align: center;}
+.pioneer_section .pioneer_inner {width: 100%;display: grid;grid-template-columns: repeat(1, 1fr);row-gap: 48px;column-gap: 100px;padding: 0 10px;text-align: center;}
+.pioneer_section .pioneer_inner .pioneer_item h3 {text-align: center;}
+.pioneer_section .pioneer_inner .pioneer_item p {text-align: center;}
+.banner_sectionConnector_inner {display: block;}
+.banner_sectionConnector_inner .bannerConnector_left {max-width: 100%;text-align: center;}
+.banner_sectionConnector_inner .bannerConnector_left h3 {font-size: 34px;line-height: 50px;text-align: center;}
+.banner_sectionConnector_inner .bannerConnector_right {width: 100%;}
+.banner_sectionConnector_inner .bannerConnector_right p {font-size: 16px;line-height: 25px;text-align: center;color: #FFFFFF;}
+.sectionConnector_effectImg {margin-top: -55px;}
+.ready_connector_section .ready_connector_inner h3 {font-size: 34px;line-height: 50px;}
+.ready_connector_section .ready_connector_inner {width: 100%;max-width: 320px;margin: 0 auto;}
+.who_connectors_section .who_connectors_imagesSec {width: 100%;display: block;}
+.how_work_item_right {max-width: 80%;}
+.Apply_last_section .Apply_last_section_inner h3 {font-size: 24px;line-height: 32px;}
+.faq_section .faq_section_inner .faq_content_right .faq_viewbutton a {font-size: 18px;line-height: 24px;}
+.pioneer_section {margin-bottom: 45px;}
+
+.spreadword_social .social_spread {padding: 6px 7px 5px 7px;gap: 7px;}
+.main_dashboard_sr-topsec .dashboard_top_oneSec_left h3 {font-size: 22px;line-height: 30px;}
+
+.spread_word_sec_inner .spread_word_linkCopy {width: 100%;display: grid;gap: 10px;justify-content: inherit;}
+.spread_word_sec_inner .spread_word_linkCopy .copy_btn {min-height: 40px;}
+.spread_word_sec .spread_word_linkCopy_text {margin-top: 8px;max-width: 100%;}
+.could_earn_item .custom_people p {font-size: 16px;line-height: 24px;}
+.could_earn_item .custom_people span {font-size: 18px;line-height: 24px;}
+
+
+.could_earn_item h5 {font-size: 20px;line-height: 25px;width: 100%;margin-bottom: 0;}
+.could_earn_item .custom_people {width: 100%;}
+.could_earn_item .range_input {width: 100%;margin-bottom: 20px;}
+.could_earn_item {width: 100%;display: grid;justify-content: inherit;gap: 10px;margin: 40px 0;align-items: center;}
+.ReactModalPortal .ReactModal__Content {padding: 32px 24px 32px 24px !important;min-height: 670px;height: auto;left: 0 !important;right: 0 !important;max-width: 95% !important;}
+.invite_email_popup .content_up {margin-bottom: 20px;padding: 8px;}
+.invite_email_popup .content_up textarea {padding: 10px 10px;font-size: 14px;line-height: 22px;margin-bottom: 0;}
+.invite_email_popup .content_down .content_down_top input {margin-bottom: 22px;}
+.dashboard_container {max-width: 954px;padding: 10px 15px;}
+.could_earn_sec h3 {font-size: 26px;line-height: 30px;margin-bottom: 15px;}
+.spread_word_sec.Multiply_earnings_Sec .spread_word_sec_top h2 {font-size: 24px;line-height: 30px;margin-bottom: 36px;}
+.spread_word_sec_top h3 {font-size: 22px;line-height: 27px;margin-bottom: 12px;}
+.spread_word_sec_top h5 {font-size: 16px;font-weight: 500;line-height: 20px;}
+.Withdraw_balance_popContent .Withdraw_balance_price {padding: 15px 20px 15px 20px;font-size: 24px;line-height: 38px;max-width: 170px;margin-bottom: 20px;}
+.Withdraw_balance_popContent input {font-size: 24px;}
+.mission_main .mission_main_inner .mission_main_item {display: grid;padding: 15px 15px;gap: 20px;}
+.mission_main .mission_main_inner .mission_main_items a .image-content {width: 100%;}
+.mission_main .mission_main_inner .mission_main_items a .text-content {width: 100%;}
+.mission_main .section_title {font-size: 28px;line-height: 34px;text-align: center;margin: 0;}
+.mission_main .mission_main_inner .mission_main_item .text-content h3 {text-align: center;margin: 0 0 8px 0;}
+.mission_main .mission_main_inner .mission_main_item .text-content p {font-size: 16px;font-weight: 500;line-height: 20px;text-align: center;}
+.article_main .article_main_inner .article_main_inner_content h3 {font-size: 28px;line-height: 40px;margin-bottom: 20px;}
+.article_main .article_main_inner .article_main_inner_content .article-paragraph p {font-size: 16px;line-height: 24px;font-weight: 500;}
+.faq_mainpage.help_page .faq_mainpage_inner .faq_mainpage_left h3 {margin-bottom: 25px;font-size: 28px;line-height: 30px;}
+.faq_mainpage_inner .faq_mainpage_left .search-box input {padding: 14px 14px 14px 50px;}
+.faq_mainpage.help_page .faq_mainpage_inner .faq_mainpage_right {padding-top: 0;}
+.faq_mainpage.help_page .faq_mainpage_inner {padding: 0 10px;}
+
+.myprofile_page .content_tab_Sr .myprofile_tab_inner .myprofile_right {width: 100%;padding-left: 0;padding-top: 40px;}
+.myprofile_page .content_tab_Sr .myprofile_tab_inner .myprofile_left {width: 100%;padding-right: 0;border-right: 0;;}
+.myprofile_page_tab .content-tabs .content_tab_Sr .myprofile_tab_inner {display: block;gap: 0;padding-top: 20px;}
+.myprofile_page_inners .myprofile_page_tab {padding: 0 10px;}
+.myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item .tabs.nav-link {padding: 1px 0;}
+.myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item {
+	margin-left: 15px;
+}
+.myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item:nth-child(1) {
+	margin-left: 0;
+}
+.myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item .tabs.nav-link h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+}
+    
+    
+    @media screen and (max-width: 600px) {
+    footer.bg-light .row .col-lg-3.col-md-6.mb-4 {width: 100%;margin-bottom: 40px !important;}
+    footer.bg-light .col-lg-3 h2 {text-align: center;}
+    footer.bg-light .col-lg-3 ul.social_icon_sr.list-unstyled.mb-0 {justify-content: center;}
+    footer.bg-light .col-lg-3 .text-uppercase {text-align: center;}
+    footer.bg-light .col-lg-3 .list-unstyled li {text-align: center;}
+    footer.bg-light .row .col-lg-3.col-md-6.mb-4:nth-last-child(1) {margin-bottom: 0 !important;}
+
+    .navbar .right-icons .nav-link.points {padding: 6px 0;font-size: 16px;line-height: 24px;min-width: 155px;}
+    .navbar .right-icons .nav-link.toggle-profile::after {width: 60px;height: 60px;}
+    .navbar .right-icons .nav-link.toggle-profile {font-size: 16px;line-height: 24px;min-width: 150px;padding: 8px 0;}
+    .kidzdashboard .kidsname button.navbar-toggler {padding: 0 0 0 7px;}
+    .kidzdashboard .navbar.navbar-expand-lg .navbar-nav .nav-item img {transition-duration: 0.1s;max-width: 50px;}
+    .kidsname #navbarNav {max-width: 70px;}
+    .kidzdashboard .kidsname button.navbar-toggler.collapsed {margin-left: 0;}
+    .how_work_item .how_work_item_right h4 {font-size: 22px;}
+    .how_work_item .how_work_item_right p {font-weight: 500;line-height: 20px;}
+    .login_page_sr .login_page_row .col-sm-6 {width: 100%;max-width: 95%;margin: 0 auto;}
+    .login_page_sr .login_page_row .create-user-section h2 {font-size: 28px;line-height: 40px;}
+    .login_page_sr .login_page_row .create-user-section p {font-size: 16px;font-weight: 500;}
+    .card.login_sr_cnt {padding: 25px 25px 25px 25px !important;}
+    .signup-page {width: 100%;background: #0A5CBC;padding: 20px 20px 20px 20px;}
+    .signup-page .content-wrapper {padding: 56px;padding-left: 15px;padding-right: 15px;}
+    .form-group.Password_form_sr .show_passw_btn img {max-width: 22px;}
+    .signup-page .content-wrapper .card.signup_sr_cnt .form-group .form_checkbox_sr {margin-bottom: 12px;gap: 7px;}
+    .spreadword_social .social_spread {padding: 6px 7px 5px 7px;gap: 7px;font-size: 0;}
+    .main_dashboard_sr-topsec .dashboard_top_oneSec_left {text-align: center;justify-content: center;display: grid;margin-bottom: 20px;}
+    .main_dashboard_sr-topsec .dashboard_top_oneSec_Right {justify-content: center;}
+    .main_dashboard_sr-topsec .dashboard_top_oneSec_left span {font-size: 14px;line-height: 15px;min-height: 36px;}
+    .main_dashboard_sr-topsec .dashboard_top_oneSec_Right .withdraw_blnc {font-size: 14px;line-height: 20px;padding: 9px 10px 9px 10px;}
+    .could_earn_sec .could_earn_sec_top_head span {padding: 15px 40px 15px 40px;border-radius: 16px;font-size: 28px;line-height: 38px;max-width: 170px;margin: 0 auto;}
+
+    .ReactModalPortal .ReactModal__Content {top: 40% !important;min-height: 520px;}
+    .contact_support_sec .contact_support_sec_inner button {min-width: 280px;}
+    .contact_support_sec .contact_support_sec_inner h3 {font-size: 22px;line-height: 28px;}
+    .faq_mainpage_inner .faq_mainpage_right .accordion .accordion-item .accordion-button {padding-right: 20px;}
+    .faq_mainpage_inner .faq_mainpage_left .search-box img {max-width: 28px;}
+    .form-group.gender_item_group .form_checkbox_sr {margin-bottom: 8px;gap: 5px;}
+    .myprofile_tab_inner form .form-group {margin-bottom: 16px;}
+    
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item {
+        margin-left: 5px;
+    }
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item .tabs.nav-link h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}	
+    
+    @media screen and (max-width: 480px) {
+
+    .header_inner .navbar {padding: 15px 0;}
+    button.navbar-toggler {border: none;}
+    .navbar .right-icons .nav-link.points img {max-width: 23px;}
+    .navbar .right-icons .nav-link.points {min-width: 140px;}
+    .navbar .right-icons .nav-link.toggle-profile {min-width: 130px;padding-left: 30px;}
+    .navbar-expand-sm .navbar-collapse.show {top: 70px;}
+    .main_dashboard_sr-topsec .dashboard_top_oneSec_Right span.earnings_ava {font-size: 14px;line-height: 20px;padding: 9px 10px 9px 10px;}
+    .contact_support .contact_support_form .form-group .send_msg_btn_popup {min-width: 100%;}
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item {
+        margin-left: 0px;
+    }
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs .nav-item .tabs.nav-link h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .myprofile_page_tab .bloc-tabs.nav.nav-tabs {
+        display: grid;
+    }
+    .form-group.Payout_history_tab {
+        display: block;
+        padding-bottom: 26px;
+        padding-top: 16px;
+    }
+    .table_outer_payout_history {
+        width: 100%;
+        overflow: auto;
+    }
+    .table_outer_payout_history .table {
+        width: 100%;
+        width: 560px;
+    }
+    .table_outer_payout_history .table tr th {
+        padding: 0 0 20px 0;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #000;
+    }
+    .table_outer_payout_history .table tr td {
+        padding: 16px 0;
+        border-bottom: 1px solid #F5F5F5;
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #404040;
+    }
+    .form-group.Payout_history_tab .form-control {
+        width: 100%;
+        max-width: 100%;
+        font-size: 15px;
+    }
+    .content_tab_Sr .ractive-content .form-group.form_payment_btn .done_payment_btn {
+        max-width: 183px;
+        margin: 0 !important;
+    }
+    .content_tab_Sr .ractive-content .form-group.form_payment_btn .back_payment_btn {
+        margin: 0 !important;
+    }
+
+}

@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {font-family: 'chennairegular';
+	src: url('../css/font/chennaiboldoblique-webfont.woff2') format('woff2'),
+	url('../css/font/chennaiboldoblique-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.container {
+	width: 100%;
+	max-width: 1052px;
+} 
+.header_inner {
+	width: 100%;
+}   
+.navbar-expand-sm .navbar-collapse {
+	justify-content: flex-end;
+}
+.header_inner .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+	margin-bottom: 20px;  
+}
+.header_inner .navbar .logo a {
+	width: 100%;
+	display: block;
+}
+.header_inner .navbar .logo a img {
+	width: auto;
+}
+.header_inner .navbar .navbar-nav li {
+	margin-left: 20px;
+}
+.header_inner .navbar .navbar-nav li:nth-child(1) {
+	margin-left: 0;
+}
+.header_inner .navbar .navbar-nav li .nav-link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	color: #10426F;
+}
+.header_inner .navbar .navbar-nav li.active .nav-link, .header_inner .navbar .navbar-nav li .nav-link:hover {
+	color: #F28A35;
+}
+.header_inner .navbar .navbar-nav {
+	align-items: center;
+}
+.header_inner .navbar .navbar-nav li.login-btn .nav-link {
+	background: transparent;
+	color: #F28A35;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	min-width: 165px;
+	padding: 11px 0;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: 1px solid #F28A35;
+}
+.header_inner .navbar .navbar-nav li.login-btn .nav-link:hover {
+	background: #F28A35;
+	color: #fff;
+}
+
+
+
+
+
+
+footer.bg-light {
+	background: #1A60B1 !important;
+	color: #fff;
+	padding: 50px 0px 20px;
+}
+footer.bg-light .col-lg-3 h2 {
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 28px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+footer.bg-light .col-lg-3 ul.social_icon_sr.list-unstyled.mb-0 {
+	display: flex;
+	gap: 12px;
+}
+footer.bg-light .col-lg-3 .text-uppercase {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin: 0 0 12px 0 !important;
+	text-transform: capitalize !important;
+}
+footer.bg-light .col-lg-3 .list-unstyled li {
+	margin-bottom: 8px;
+}
+footer.bg-light .col-lg-3 .list-unstyled li a.text-dark {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #FFF !important;
+	text-decoration: none;
+	opacity: .75;
+}
+footer.bg-light .col-lg-3 ul.social_icon_sr.list-unstyled.mb-0 li {
+	margin: 0;
+}
+footer.bg-light .col-lg-3 ul.social_icon_sr li a.text-dark {
+	opacity: 1;
+}
+
+
+
+
+/************** Login page CSS **************/
+html {
+	overflow-x: hidden;
+}
+.login_page_sr {
+	height: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+.card.login_sr_cnt {
+	max-width: 460px;
+	border: none;
+	padding: 0 !important;
+	margin: 0 auto;
+	margin-bottom: 54px;
+}
+.card.login_sr_cnt .text-center.mb-3 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #F28A35;
+	margin-bottom: 24px !important;
+}
+.card.login_sr_cnt .form-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.card.login_sr_cnt .form-group label {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #344054;
+	margin-bottom: 6px;
+}
+.card.login_sr_cnt .form-group input {
+	border: 1px solid #E5E5E5;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #667085;
+	padding: 14px 14px;
+	border-radius: 16px;
+	background: #fff;
+}
+.card.login_sr_cnt .form-group.Password_group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card.login_sr_cnt .form-group.Password_group .show-pass {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #344054;
+}
+.card.login_sr_cnt .form-group.Password_group .show-pass .ch {
+	border: 1px solid #E5E5E5;
+	scale: 1.2;
+}
+.card.login_sr_cnt .form-group.Password_group .forget-pass .nav-link {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #DB6707;
+}
+.card.login_sr_cnt .form-group.login_btnsr {
+	margin-top: 24px !important;
+}
+.card.login_sr_cnt .form-group.login_btnsr .btn.btn-primary.mt-4 {
+	margin: 0 !important;
+	width: 100%;
+	background: #F28A35;
+	border: 1px solid #F28A35;
+	border-radius: 22px;
+	padding: 10px 18px 10px 18px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.card.login_sr_cnt .form-group.or_text {
+	position: relative;
+}
+.card.login_sr_cnt .form-group.or_text::after {
+	content: '';
+	background: #EAECF0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.card.login_sr_cnt .form-group.or_text span {
+	margin: 0 auto;
+	display: table;
+	background: #fff;
+	position: relative;
+	z-index: 99;
+	padding: 4px 20px;
+}
+.card.login_sr_cnt .form-group.login_with_btncnrl {
+	display: grid;
+	gap: 16px;
+}
+.card.login_sr_cnt .form-group.login_with_btncnrl button {
+	border: 1px solid #E5E5E5;
+	background: transparent;
+	padding: 10px 16px 10px 16px;
+	border-radius: 22px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #344054;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+.card.login_sr_cnt .form-group.Signup_btn p {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #737373;
+}
+.card.login_sr_cnt .form-group.Signup_btn .btn.btn-primary {
+	background: #8A6CB1;
+	box-shadow: 0px 2px 4px -2px #6B4C93;
+	box-shadow: 0px 4px 8px -2px #D7D9FF;
+	border: none;
+	width: 100%;
+	border-radius: 22px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	padding: 12px 10px;
+	text-transform: uppercase;
+}
+
+/* .login_page_sr::before {
+	content: '';
+	background-image: url('../images/login_left-shape.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 5%;
+	width: 290px;
+	height: 500px;
+	right: 0;
+	left: auto;
+}
+.login_page_sr::after {
+	content: '';
+	background-image: url('../images/login_right-shape.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	width: 126px;
+	height: 210px;
+	left: 0;
+	right: auto;
+} */
+
+
+/* Sign Up Page Css here */
+
+.signup_page_sr {
+	height: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+.card.signup_sr_cnt {
+	max-width: 460px;
+	border: none;
+	padding: 0 !important;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.card.signup_sr_cnt .text-center.mb-3 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #1A60B1;
+	margin-bottom: 24px !important;
+}
+.card.signup_sr_cnt .form-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.card.signup_sr_cnt .form-group label {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #344054;
+	margin-bottom: 6px;
+}
+.card.signup_sr_cnt .form-group input {
+	border: 1px solid #E5E5E5;
+	box-shadow: 0px 1px 2px 0px #1018280D;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #667085;
+	padding: 14px 14px;
+	border-radius: 16px;
+	background: #fff;
+}
+.card.signup_sr_cnt .form-group.or_text {
+	position: relative;
+}
+.card.signup_sr_cnt .form-group.or_text::after {
+	content: '';
+	background: #EAECF0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.card.signup_sr_cnt .form-group.or_text span {
+	margin: 0 auto;
+	display: table;
+	background: #fff;
+	position: relative;
+	z-index: 99;
+	padding: 4px 20px;
+}
+.card.signup_sr_cnt .form-group.login_with_btncnrl {
+	display: grid;
+	gap: 16px;
+}
+.card.signup_sr_cnt .form-group.login_with_btncnrl button {
+	border: 1px solid #E5E5E5;
+	background: transparent;
+	padding: 10px 16px 10px 16px;
+	border-radius: 22px;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #344054;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+.form-group_btn .btn.btn-primary.continue_signup.mt-4 {
+	background: #8A6CB1;
+	box-shadow: 0px 2px 4px -2px #6B4C93;
+	box-shadow: 0px 4px 8px -2px #D7D9FF;
+	border: none;
+	width: auto;
+	border-radius: 22px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	padding: 12px 10px;
+	text-transform: uppercase;
+	display: table;
+	max-width: 290px;
+	min-width: 290px;
+}
+.card.signup_sr_cnt.signup_srform {
+	max-width: 980px;
+	width: 100%;
+}
+
+
+.signup_page_sr .signup_srform_outer {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 54px;
+}
+.card.signup_sr_cnt.signup_srform {
+	max-width: 980px;
+	width: 100%;
+	display: grid;
+	column-gap: 24px;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 0;
+}
+
+/******************** Home (Connector) page CSS here ********************/
+
+
+.ready_connector_section {
+	width: 100%;
+	padding: 50px 0 100px 0;
+	text-align: center;
+	position: relative;
+	z-index: 9;
+}
+.ready_connector_section .ready_connector_inner {
+	width: 100%;
+	max-width: 578px;
+	margin: 0 auto;
+}
+.ready_connector_section .ready_connector_inner h3 {
+	width: 100%;
+	font-family: Plus Jakarta Sans;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #263D57;
+}
+.ready_connector_section .ready_connector_inner button {
+	background: #0065D9;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	min-width: 264px;
+	padding: 14px 0;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 20px;
+}
+.ready_connector_section .ready_connector_inner button:hover {
+	background: #F28A35;
+}
+
+
+.banner_sectionConnector {
+	width: 100%;
+	background: #e2812c;
+	padding: 112px 0;
+	margin-bottom: 56px;
+}
+.banner_sectionConnector_inner {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	gap: 0 66px;
+	align-items: center;
+	color: #fff;
+}
+
+.banner_sectionConnector_inner .bannerConnector_left {
+	max-width: 230px;
+}
+.banner_sectionConnector_inner .bannerConnector_left h3 {
+	font-family: Plus Jakarta Sans;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+}
+.banner_sectionConnector_inner .bannerConnector_right {
+	width: auto;
+}
+.banner_sectionConnector_inner .bannerConnector_right p {
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.sectionConnector_effectImg {
+	width: 100%;
+	overflow: hidden;
+	margin-top: -165px;
+	position: relative;
+	z-index: 1;
+}
+.sectionConnector_effectImg img {
+	width: 120vw;
+	object-fit: cover;
+	margin-left: -10vw;
+}
+
+.pioneer_section {
+	width: 100%;
+	margin-bottom: 108px;
+}
+.pioneer_section .pioneer_inner {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 48px;
+	column-gap: 100px;
+} 
+.who_connectors_section {
+	width: 100%;
+	margin-bottom: 80px;
+}
+.who_connectors_section h3 {
+	font-family: Plus Jakarta Sans;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.who_connectors_section .who_connectors_imagesSec {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+}
+.who_connectors_section .who_connectors_imagesSec .connectors_images_item {
+	width: 100%;
+}
+.who_connectors_section .who_connectors_imagesSec img {
+	width: 100%;
+	height: auto;
+	max-height: 352px;
+	min-height: 352px;
+	object-fit: fill;
+}
