@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cda89f5c.css",
+    "main.js": "/static/js/main.4d5ed2d9.js",
+    "static/js/787.42a359b6.chunk.js": "/static/js/787.42a359b6.chunk.js",
+    "static/media/login_bghd001.png": "/static/media/login_bghd001.70ee9577a8171127b372.png",
+    "static/media/connectors-img001.png": "/static/media/connectors-img001.5dfc91f3ebffea12ed8c.png",
+    "static/media/connectors-img002.png": "/static/media/connectors-img002.55582048b1529b7c61a4.png",
+    "static/media/connectors-img003.png": "/static/media/connectors-img003.196ee30c36c3f4aea5a6.png",
+    "static/media/login_bg001.png": "/static/media/login_bg001.9395008c03c3f33d6f15.png",
+    "static/media/chennaiboldoblique-webfont.woff": "/static/media/chennaiboldoblique-webfont.fb9f7c15bf35fd26546b.woff",
+    "static/media/chennaiboldoblique-webfont.woff2": "/static/media/chennaiboldoblique-webfont.e126fdd1189ad1294130.woff2",
+    "static/media/KIDZCONNECT-1.png": "/static/media/KIDZCONNECT-1.e1445759910f3711e47e.png",
+    "static/media/banner_effect_img_hd.png": "/static/media/banner_effect_img_hd.2048945f4da721ea0336.png",
+    "static/media/banner_effect_img_home.png": "/static/media/banner_effect_img_home.88570efc2135e8e46d80.png",
+    "index.html": "/index.html",
+    "main.cda89f5c.css.map": "/static/css/main.cda89f5c.css.map",
+    "main.4d5ed2d9.js.map": "/static/js/main.4d5ed2d9.js.map",
+    "787.42a359b6.chunk.js.map": "/static/js/787.42a359b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda89f5c.css",
+    "static/js/main.4d5ed2d9.js"
+  ]
+}
